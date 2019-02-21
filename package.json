@@ -1,0 +1,32 @@
+{
+  "name": "emt-api",
+  "version": "1.0.0",
+  "description": "Express MongoDB TypeScript API",
+  "main": "./dist/server.js",
+  "repository": "git@github.com:phr3nzy/emt-api.git",
+  "author": "phr3nzy",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "cross-env NODE_ENV=development ts-node ./lib/server.ts --watch",
+    "start": "nodemon ./dist/server.js",
+    "prod": "yarn run build && yarn run start"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.14",
+    "typescript": "^3.3.3"
+  }
+}
