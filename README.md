@@ -13,7 +13,7 @@ Please, first ensure you have the proper .env variables set which include, but a
 	PORT
 	HOST
 	MONGO_URI
-	SECRET #JWT and stuff :p
+	SECRET # for JWT and stuff
   
 Then run:
 
