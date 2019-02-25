@@ -8,7 +8,7 @@ Express, MongoDB API built using TypeScript!
 - TypeScript 
 
 ## Setup
-Please, first ensure you have the proper .env variables set which include, but are not limited to:
+First ensure you have the proper .env variables set which are:
 
 	PORT
 	HOST
@@ -17,7 +17,7 @@ Please, first ensure you have the proper .env variables set which include, but a
   
 Then run:
 
-	yarn run dev # launches a server for development
+	yarn run dev # run development server
 	yarn run build # compiles TS files
 	yarn run start # launch nodemon and watch for changes in the dist folder
 	yarn run prod # runs build & start commands
