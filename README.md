@@ -21,3 +21,5 @@ Then run:
 	yarn run build # compiles TS files
 	yarn run start # launch nodemon and watch for changes in the dist folder
 	yarn run prod # runs build & start commands
+
+## Feedback, Contributions & Issues
