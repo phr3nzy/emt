@@ -23,3 +23,5 @@ Then run:
 	yarn run prod # runs build & start commands
 
 ## Feedback, Contributions & Issues
+
+All forms of the above are appreciated. Send feedback to: adilosama47@outlook.com
